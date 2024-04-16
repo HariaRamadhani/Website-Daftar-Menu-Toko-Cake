@@ -1,0 +1,323 @@
+/* Style for header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #c0e6fc;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.logo img {
+    width: 70px; /* Ubah ukuran sesuai kebutuhan */
+    height: auto; /* Biarkan tinggi menyesuaikan dengan lebar */
+}
+
+/* Style for logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for slogan */
+.logo a {
+    margin-left: 10px; /* Adjust the margin as needed */
+    color: #343a40;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Center the slogan horizontally */
+.logo a {
+    margin: 0 auto;
+}
+
+/* Style for search bar */
+.search-bar {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style for about us */
+.about-us {
+    margin-left: 20px; /* Add space between social media icons and About Us */
+}
+
+/* Style for about us */
+.about-us a {
+    color: #343a40;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Style for fieldset */
+fieldset {
+    width: fit-content;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #c0e6fc;
+    border-radius: 10px;
+}
+
+
+/* Style for image below fieldset */
+#gambar-toko-kue {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 100%;
+    height: 370px;
+    object-fit: cover;
+}
+
+/* Style for best seller images */
+.best-seller {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.best-seller .product {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.best-seller img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Styles for product info */
+.best-seller .product-info {
+    margin-top: 10px;
+}
+
+.best-seller .product-info h3 {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.best-seller .product-info p {
+    font-size: 14px;
+    color: #888;
+}
+
+/* Style for cake images */
+.cake {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.cake .product {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.cake img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Style for cupcake images */
+.cupcake {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.cupcake .product {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.cupcake img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Style for birthday cake images */
+.birthdayCake {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.birthdayCake .product {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.birthdayCake img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Style for cookies images */
+.cookies {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.cookies .product {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.cookies img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Style for brownies images */
+.brownies {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.brownies .product {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.brownies img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Style for footer */
+footer {
+    background-color: #5db4e6; /* Blue background color */
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between; /* Aligns items at the start and end */
+    align-items: center; /* Centers items vertically */
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-us,
+.deskripsiToko,
+.cabangToko,
+.lokasi,
+.sosialMedia-itam {
+    margin-right: 25px; /* Adjust the margin as needed */
+}
+
+.cabangToko,
+.lokasi1,
+.alamatCabang1
+.alamatCabang2 {
+    margin-right: 10px;
+}
+
+.alamatCabang1,
+.lokasi2 {
+    margin-right: 15px;
+}
+
+.alamatCabang2,
+.sosialMedia {
+    margin-right: 25px;
+}
+
+.deskripsiToko p {
+    white-space: pre-line; /* Preserve line breaks */
+}
+
+.alamatCabang1 p {
+    white-space: pre-line; /* Preserve line breaks */
+}
+
+.alamatCabang2 p {
+    white-space: pre-line; /* Preserve line breaks */
+}
+
+.about-us p,
+.deskripsiToko p,
+.cabangToko p,
+.alamatCabang1 p,
+.alamatCabang2 p,
+.socialMedia-item p {
+    color: #fff; /* Set the text color to white */
+}
+
+.lokasi1 img {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+}
+
+.lokasi2 img {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+}
+
+.socialMedia img {
+    width: 30px;
+    height: auto;
+}
+
+/* Style for social media icons */
+.socialMedia a {
+    margin-left: 10px; /* Add some space between social media icons */
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialMedia-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px; /* Adjust the margin as needed */
+}
+
+.socialMedia-item img {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+/* Style for fieldset inside footer */
+footer fieldset {
+    border: 2px solid #c0e6fc; /* White border */
+    border-radius: 10px;
+    padding: 10px;
+    width: calc(100% - 40px); /* Subtract padding from the width */
+    max-width: 1200px; /* Limit to the same width as the container */
+    margin: 0 auto; /* Center the fieldset */
+}
+
+/* Style for legend inside fieldset */
+footer legend {
+    color: #fff; /* White text color for legend */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
